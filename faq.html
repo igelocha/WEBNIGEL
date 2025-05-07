@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INORU Tattoo and Piercing Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-4 py-3 border-b border-gray-900">
+    <img src="https://storage.googleapis.com/a1aa/image/c2afe246-89e9-4990-1c79-650117ac8c70.jpg" alt="Logo" class="w-8 h-8" />
+    <button id="menuButton" aria-label="Menu" class="text-white text-2xl">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav id="mobileMenu" class="hidden bg-black text-white px-4 py-2 border-b border-gray-800">
+    <ul class="space-y-2">
+      <li><a href="about.html" class="block hover:text-yellow-500 menu-link">About</a></li>
+      <li><a href="tattoos.html" class="block hover:text-yellow-500 menu-link">Tattoos</a></li>
+      <li><a href="contact.html" class="block hover:text-yellow-500 menu-link">Contact</a></li>
+      <li><a href="reward.html" class="block hover:text-yellow-500 menu-link">Reward</a></li>
+      <li><a href="faq.html" class="block hover:text-yellow-500 menu-link">FAQ</a></li>
+    </ul>
+  </nav>
+  <!-- FAQ Section -->
+  <section class="bg-[#d38a00] py-16 px-6 md:px-20">
+   <h1 class="text-white font-['Anton'] font-extrabold text-[72px] leading-[72px] mb-10 max-w-[300px]" style="font-family: 'Anton', sans-serif">
+    FAQ
+   </h1>
+   <div class="max-w-4xl space-y-4">
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     How to book a reservation?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     Is it safe to get tattoo here?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     How much does it cost?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     Do you accept beauty tattoo for girls?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     Can I choose the artist?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     Do you have a smoking room?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
+     Do you accept tattoo idea consultation?
+     <i class="fas fa-chevron-down">
+     </i>
+    </button>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="max-w-6xl mx-auto px-4 py-8 text-gray-400 text-xs flex flex-col sm:flex-row sm:justify-between sm:items-start space-y-6 sm:space-y-0">
+    <div class="space-y-1 max-w-xs">
+     <p>
+      Jl Bontomanai no. 2
+     </p>
+     <p>
+      Makassar, Indonesia 90223
+     </p>
+     <p>
+      +62 827 2527 257
+     </p>
+    </div>
+    <div class="space-y-1 max-w-xs">
+     <p>
+      Monday - Saturday
+     </p>
+     <p>
+      11:00 AM - 9:00 PM
+     </p>
+     <p>
+      Sunday : Closed
+     </p>
+    </div>
+    <div class="flex space-x-4 items-center">
+     <a aria-label="Instagram" class="hover:text-white" href="#">
+      <i class="fab fa-instagram text-lg">
+      </i>
+     </a>
+     <a aria-label="Facebook" class="hover:text-white" href="#">
+      <i class="fab fa-facebook-f text-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-white" href="#">
+      <i class="fab fa-twitter text-lg">
+      </i>
+     </a>
+    </div>
+   </footer>
+   <div class="text-center text-gray-500 text-xs pb-4">
+    © 2024 INORU Tattoo &amp; Piercing Studio. All rights reserved.
+   </div>
+
+  <!-- Script -->
+  <script>
+    const menuButton = document.getElementById('menuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
+  

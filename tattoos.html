@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>INORU Tattoo and Piercing Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Anton', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Header -->
+  <header class="flex items-center justify-between px-4 py-3 border-b border-gray-900">
+    <img src="https://storage.googleapis.com/a1aa/image/c2afe246-89e9-4990-1c79-650117ac8c70.jpg" alt="Logo" class="w-8 h-8" />
+    <button id="menuButton" aria-label="Menu" class="text-white text-2xl">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav id="mobileMenu" class="hidden bg-black text-white px-4 py-2 border-b border-gray-800">
+    <ul class="space-y-2">
+      <li><a href="about.html" class="block hover:text-yellow-500 menu-link">About</a></li>
+      <li><a href="tattoos.html" class="block hover:text-yellow-500 menu-link">Tattoos</a></li>
+      <li><a href="contact.html" class="block hover:text-yellow-500 menu-link">Contact</a></li>
+      <li><a href="reward.html" class="block hover:text-yellow-500 menu-link">Reward</a></li>
+      <li><a href="faq.html" class="block hover:text-yellow-500 menu-link">FAQ</a></li>
+    </ul>
+  </nav>
+  
+  <nav class="flex overflow-x-auto space-x-3 px-4 py-4 border-b border-gray-900 scrollbar-hide">
+   <button aria-pressed="true" class="bg-[#1a1a1a] text-white text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    All
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Traditional
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Minimalist
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Tribal
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Anime
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Balinese
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Fineline
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Japanese
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Piercing
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Ornamen
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Realism
+   </button>
+   <button class="bg-white text-black text-sm rounded-md px-4 py-2 whitespace-nowrap">
+    Modern
+   </button>
+  </nav>
+  <main class="px-4 py-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-7xl mx-auto">
+   <article class="rounded-md overflow-hidden">
+    <img alt="Geometric tattoo on arm with hexagonal and star patterns in black and gray ink" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/5963bce7-db44-4008-563d-48ca548939e3.jpg" width="600"/>
+    <div class="bg-[#d48800] p-4 rounded-b-md">
+     <h2 class="font-semibold text-black text-base mb-1">
+      Geometric Tattoo
+     </h2>
+     <p class="text-black text-xs mb-3">
+      Minimalist designs with geometric patterns
+     </p>
+     <div class="flex justify-between text-black text-sm">
+      <button aria-label="Like Geometric Tattoo" class="focus:outline-none">
+       <i class="far fa-heart">
+       </i>
+      </button>
+      <button aria-label="Share Geometric Tattoo" class="focus:outline-none">
+       <i class="fas fa-share-alt">
+       </i>
+      </button>
+     </div>
+    </div>
+   </article>
+   <article class="rounded-md overflow-hidden">
+    <img alt="Traditional tattoo of a ship with sails and rope on skin" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/c1ff7248-470a-4b62-144e-940f1bd99213.jpg" width="600"/>
+    <div class="bg-[#d48800] p-4 rounded-b-md">
+     <h2 class="font-semibold text-black text-base mb-1">
+      Traditional Tattoo
+     </h2>
+     <p class="text-black text-xs mb-3">
+      Classic designs with traditional motifs
+     </p>
+     <div class="flex justify-between text-black text-sm">
+      <button aria-label="Like Traditional Tattoo" class="focus:outline-none">
+       <i class="far fa-heart">
+       </i>
+      </button>
+      <button aria-label="Share Traditional Tattoo" class="focus:outline-none">
+       <i class="fas fa-share-alt">
+       </i>
+      </button>
+     </div>
+    </div>
+   </article>
+   <article class="rounded-md overflow-hidden">
+    <img alt="Tribal tattoo with bold black patterns on upper back and shoulder" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/7569b9ee-e8d8-490f-7c27-dfbf3ff12bc0.jpg" width="600"/>
+    <div class="bg-[#d48800] p-4 rounded-b-md">
+     <h2 class="font-semibold text-black text-base mb-1">
+      Tribal Tattoo
+     </h2>
+     <p class="text-black text-xs mb-3">
+      Modern tribal designs with bold patterns
+     </p>
+     <div class="flex justify-between text-black text-sm">
+      <button aria-label="Like Tribal Tattoo" class="focus:outline-none">
+       <i class="far fa-heart">
+       </i>
+      </button>
+      <button aria-label="Share Tribal Tattoo" class="focus:outline-none">
+       <i class="fas fa-share-alt">
+       </i>
+      </button>
+     </div>
+    </div>
+   </article>
+   <article class="rounded-md overflow-hidden">
+    <img alt="Close-up of ear with multiple premium silver piercings" class="w-full h-48 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/b368961d-5afe-4ac1-d2df-5b1f271224da.jpg" width="600"/>
+    <div class="bg-[#d48800] p-4 rounded-b-md">
+     <h2 class="font-semibold text-black text-base mb-1">
+      Premium Ear Piercing
+     </h2>
+     <p class="text-black text-xs mb-3">
+      Professional piercing service with premium jewelry
+     </p>
+     <div class="flex justify-between text-black text-sm">
+      <button aria-label="Like Premium Ear Piercing" class="focus:outline-none">
+       <i class="far fa-heart">
+       </i>
+      </button>
+      <button aria-label="Share Premium Ear Piercing" class="focus:outline-none">
+       <i class="fas fa-share-alt">
+       </i>
+      </button>
+     </div>
+    </div>
+   </article>
+  </main>
+  <footer class="max-w-6xl mx-auto px-4 py-8 text-gray-400 text-xs flex flex-col sm:flex-row sm:justify-between sm:items-start space-y-6 sm:space-y-0">
+    <div class="space-y-1 max-w-xs">
+     <p>
+      Jl Bontomanai no. 2
+     </p>
+     <p>
+      Makassar, Indonesia 90223
+     </p>
+     <p>
+      +62 827 2527 257
+     </p>
+    </div>
+    <div class="space-y-1 max-w-xs">
+     <p>
+      Monday - Saturday
+     </p>
+     <p>
+      11:00 AM - 9:00 PM
+     </p>
+     <p>
+      Sunday : Closed
+     </p>
+    </div>
+    <div class="flex space-x-4 items-center">
+     <a aria-label="Instagram" class="hover:text-white" href="#">
+      <i class="fab fa-instagram text-lg">
+      </i>
+     </a>
+     <a aria-label="Facebook" class="hover:text-white" href="#">
+      <i class="fab fa-facebook-f text-lg">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-white" href="#">
+      <i class="fab fa-twitter text-lg">
+      </i>
+     </a>
+    </div>
+   </footer>
+   <div class="text-center text-gray-500 text-xs pb-4">
+    © 2024 INORU Tattoo &amp; Piercing Studio. All rights reserved.
+   </div>
+
+<!-- Script -->
+<script>
+  const menuButton = document.getElementById('menuButton');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  menuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>
