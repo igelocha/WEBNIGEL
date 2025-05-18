@@ -6,7 +6,7 @@
   <title>INORU Tattoo and Piercing Studio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Anton', sans-serif;
@@ -17,7 +17,7 @@
 
   <!-- Header -->
   <header class="flex items-center justify-between px-4 py-3 border-b border-gray-900">
-    <img src="https://media-hosting.imagekit.io/f67b8ffbb6e74cc4/IMG_1223.PNG?Expires=1841674709&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Eu8BZX8KEeR4jl1MYRq157I1EZBTdxLblSAUqHH~ur~kqkAgyApaKCHaB5CNwlLDu~54u6StX9x1K6EXD-iMiav8~DNNbhjVxcBoynCT7xWBrf8r6Ak7cc2I9q7VHC1G6GWUiC2VSP49kLnPE8XikwovEWBkabRjjH5WhAv5TBAoTIgytrcQ3g9E8qhXf3oiIZ851PAeqs7mXGVIjuhEda1YLwZ7Fw~5t8XOg7l20Ni1PPCyY75pmy~wuaU3ta~JGIHSNKqvuKM7havwNCp8iR384k7yioeAzXhMNDnBjsABCDGKuIdRD7bNoZdGlAs2L91BKanbbV96IEbfkipTOQ__" alt="Logo" class="w-8 h-8" />
+    <img src="foto/logo menu.PNG" alt="Logo" class="w-8 h-8" />
     <button id="menuButton" aria-label="Menu" class="text-white text-2xl">
       <i class="fas fa-bars"></i>
     </button>
@@ -33,101 +33,134 @@
       <li><a href="faq.html" class="block hover:text-yellow-500 menu-link">FAQ</a></li>
     </ul>
   </nav>
+
   <!-- FAQ Section -->
   <section class="bg-[#d38a00] py-16 px-6 md:px-20">
-   <h1 class="text-white font-['Anton'] font-extrabold text-[72px] leading-[72px] mb-10 max-w-[300px]" style="font-family: 'Anton', sans-serif">
-    FAQ
-   </h1>
-   <div class="max-w-4xl space-y-4">
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     How to book a reservation?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     Is it safe to get tattoo here?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     How much does it cost?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     Do you accept beauty tattoo for girls?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     Can I choose the artist?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     Do you have a smoking room?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-    <button aria-expanded="false" class="w-full bg-black text-white text-sm text-left px-6 py-3 rounded-md flex justify-between items-center">
-     Do you accept tattoo idea consultation?
-     <i class="fas fa-chevron-down">
-     </i>
-    </button>
-   </div>
+    <h1 class="text-white font-['Anton'] font-extrabold text-[72px] leading-[72px] mb-10 max-w-[300px]" style="font-family: 'Anton', sans-serif">
+      FAQ
+    </h1>
+    <div class="max-w-4xl space-y-4">
+
+      <!-- Accordion Item -->
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          How to book a reservation?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          You can book a reservation by contacting us via WhatsApp or through the booking form on our website. Just pick your preferred date, time, and artist!
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          Is it safe to get tattoo here?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Yes, it’s completely safe. We follow strict hygiene protocols and use only sterilized equipment and high-quality inks.
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          How much does it cost?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Prices vary depending on the size, design, and placement of the tattoo. Feel free to consult with us for an estimate!
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          Do you accept beauty tattoo for girls?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Absolutely! We’re more than happy to do beauty tattoos for girls—just let us know what you’re looking for.
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          Can I choose the artist?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Yes, you’re welcome to choose your preferred artist. Just mention their name when booking your session.
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          Do you have a smoking room?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Yes, we have a designated smoking room separate from the tattoo area for your comfort and safety.
+        </div>
+      </div>
+
+      <div class="bg-black rounded-md overflow-hidden">
+        <button class="w-full text-left px-6 py-4 flex justify-between items-center faq-toggle">
+          Do you accept tattoo idea consultation?
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div class="faq-content hidden px-6 pb-4 text-sm">
+          Definitely! We’d love to hear your ideas and help you bring them to life through a consultation session.
+        </div>
+      </div>
+
+    </div>
   </section>
+
   <!-- Footer -->
   <footer class="max-w-6xl mx-auto px-4 py-8 text-gray-400 text-xs flex flex-col sm:flex-row sm:justify-between sm:items-start space-y-6 sm:space-y-0">
     <div class="space-y-1 max-w-xs">
-     <p>
-      Jl Bontomanai no. 2
-     </p>
-     <p>
-      Makassar, Indonesia 90223
-     </p>
-     <p>
-      +62 827 2527 257
-     </p>
+      <p>Jl Bontomanai no. 2</p>
+      <p>Makassar, Indonesia 90223</p>
+      <p>+62 827 2527 257</p>
     </div>
     <div class="space-y-1 max-w-xs">
-     <p>
-      Monday - Saturday
-     </p>
-     <p>
-      11:00 AM - 9:00 PM
-     </p>
-     <p>
-      Sunday : Closed
-     </p>
+      <p>Monday - Saturday</p>
+      <p>11:00 AM - 9:00 PM</p>
+      <p>Sunday : Closed</p>
     </div>
     <div class="flex space-x-4 items-center">
-     <a aria-label="Instagram" class="hover:text-white" href="#">
-      <i class="fab fa-instagram text-lg">
-      </i>
-     </a>
-     <a aria-label="Facebook" class="hover:text-white" href="#">
-      <i class="fab fa-facebook-f text-lg">
-      </i>
-     </a>
-     <a aria-label="Twitter" class="hover:text-white" href="#">
-      <i class="fab fa-twitter text-lg">
-      </i>
-     </a>
+      <a aria-label="Instagram" class="hover:text-white" href="#"><i class="fab fa-instagram text-lg"></i></a>
+      <a aria-label="Facebook" class="hover:text-white" href="#"><i class="fab fa-facebook-f text-lg"></i></a>
+      <a aria-label="Twitter" class="hover:text-white" href="#"><i class="fab fa-twitter text-lg"></i></a>
     </div>
-   </footer>
-   <div class="text-center text-gray-500 text-xs pb-4">
-    © 2024 INORU Tattoo &amp; Piercing Studio. All rights reserved.
-   </div>
+  </footer>
 
-  <!-- Script -->
+  <div class="text-center text-gray-500 text-xs pb-4">
+    © 2024 INORU Tattoo & Piercing Studio. All rights reserved.
+  </div>
+
+  <!-- Scripts -->
   <script>
+    // Toggle mobile nav
     const menuButton = document.getElementById('menuButton');
     const mobileMenu = document.getElementById('mobileMenu');
 
     menuButton.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
+
+    // FAQ toggle
+    const toggles = document.querySelectorAll('.faq-toggle');
+
+    toggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const content = toggle.nextElementSibling;
+        content.classList.toggle('hidden');
+
+        const icon = toggle.querySelector('i');
+        icon.classList.toggle('fa-chevron-down');
+        icon.classList.toggle('fa-chevron-up');
+      });
+    });
   </script>
 </body>
 </html>
-  
